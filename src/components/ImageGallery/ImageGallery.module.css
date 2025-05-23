@@ -1,0 +1,13 @@
+.imageGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.imageCard {
+    height: 40px;
+    width: 40px;
+}
